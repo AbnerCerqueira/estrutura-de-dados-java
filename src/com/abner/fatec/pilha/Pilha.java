@@ -19,7 +19,7 @@ public class Pilha {
 
     public void empilhar(int e) throws Exception {
         if (cheia()) {
-            throw new Exception("A lista está cheia!");
+            throw new Exception("A pilha está cheia!");
         }
         topo++;
         dados[topo] = e;
@@ -27,7 +27,7 @@ public class Pilha {
 
     public int desempilhar() throws Exception{ // LIFO(Last in First Out) o ultimo sempre sai primeiro
         if (vazia()) {
-            throw new Exception("A lista está vazia!");
+            throw new Exception("A pilha está vazia!");
         }
         int r = dados[topo];
         topo--;
