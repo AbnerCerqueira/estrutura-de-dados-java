@@ -1,4 +1,4 @@
-package com.abner.fatec.teste.pilha;
+package com.abner.fatec.teste;
 
 import com.abner.fatec.pilha.Pilha;
 

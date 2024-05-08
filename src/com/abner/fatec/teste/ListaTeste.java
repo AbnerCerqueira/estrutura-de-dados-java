@@ -1,4 +1,4 @@
-package com.abner.fatec.teste.array;
+package com.abner.fatec.teste;
 
 import com.abner.fatec.array.Lista;
 
