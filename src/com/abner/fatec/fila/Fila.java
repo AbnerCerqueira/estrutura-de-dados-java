@@ -39,10 +39,10 @@ public class Fila {
 
     @Override
     public String toString() {
-        StringBuilder s = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         for (int i = 0; i <= fim; i++) {
-            s.append(dados[i]).append(" ");
+            sb.append(dados[i]).append(" ");
         }
-        return s.toString();
+        return sb.toString();
     }
 }

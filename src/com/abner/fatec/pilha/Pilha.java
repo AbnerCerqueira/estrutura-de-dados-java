@@ -36,10 +36,10 @@ public class Pilha {
 
     @Override
     public String toString() {
-        StringBuilder s = new StringBuilder();
+        StringBuilder sb = new StringBuilder();
         for (int i = topo; i >= 0; i--) {
-            s.append(dados[i]).append("\n");
+            sb.append(dados[i]).append("\n");
         }
-        return s.toString();
+        return sb.toString();
     }
 }
